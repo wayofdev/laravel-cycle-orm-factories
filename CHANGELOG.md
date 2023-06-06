@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.0](https://github.com/wayofdev/laravel-cycle-orm-factories/compare/v1.0.0...v1.1.0) (2023-06-06)
+
+
+### Features
+
+* use laravel collections instead of arrays ([65f8e70](https://github.com/wayofdev/laravel-cycle-orm-factories/commit/65f8e7038ec8d2aa5d18de3a915d70a13c78ba3e))
+
 ## 1.0.0 (2023-06-06)
 
 
