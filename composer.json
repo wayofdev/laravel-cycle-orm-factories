@@ -1,12 +1,12 @@
 {
-    "name": "wayofdev/laravel-package-tpl",
-    "description": "PHP package template with GitHub Actions",
+    "name": "wayofdev/laravel-cycle-orm-factories",
+    "description": "Cycle-ORM Entity Factories and Database Seeders for Laravel.",
     "type": "library",
     "license": "MIT",
     "homepage": "https://wayof.dev",
     "support": {
-        "issues": "https://github.com/wayofdev/laravel-package-tpl/issues",
-        "source": "https://github.com/wayofdev/laravel-package-tpl"
+        "issues": "https://github.com/wayofdev/laravel-cycle-orm-factories/issues",
+        "source": "https://github.com/wayofdev/laravel-cycle-orm-factories"
     },
     "authors": [
         {
@@ -16,7 +16,10 @@
     ],
     "require": {
         "php": "^8.2",
-        "illuminate/contracts": "^v10.13"
+        "butschster/entity-faker": "^2.0",
+        "fakerphp/faker": "^1.22",
+        "laravel/framework": "^v10.13",
+        "laminas/laminas-hydrator": "^4.14"
     },
     "require-dev": {
         "ergebnis/composer-normalize": "^2.31",
@@ -31,17 +34,19 @@
         "phpstan/phpstan-strict-rules": "^1.5",
         "phpunit/phpunit": "^10.2",
         "roave/security-advisories": "dev-latest",
-        "wayofdev/cs-fixer-config": "^1.2"
+        "wayofdev/cs-fixer-config": "^1.2",
+        "wayofdev/laravel-cycle-orm-adapter": "^3.3"
     },
     "autoload": {
         "psr-4": {
-            "WayOfDev\\Package\\": "src/"
+            "WayOfDev\\DatabaseSeeder\\": "src/"
         }
     },
     "autoload-dev": {
         "psr-4": {
-            "WayOfDev\\Package\\App\\": "tests/app/",
-            "WayOfDev\\Package\\Tests\\": "tests/src/"
+            "WayOfDev\\DatabaseSeeder\\App\\": "tests/app/src/",
+            "WayOfDev\\DatabaseSeeder\\Tests\\": "tests/src/",
+            "WayOfDev\\DatabaseSeeder\\Database\\Factories\\": "tests/app/database/factories/"
         }
     },
     "scripts": {
@@ -63,7 +68,7 @@
     "extra": {
         "laravel": {
             "providers": [
-                "WayOfDev\\Package\\Bridge\\Laravel\\Providers\\PackageServiceProvider"
+                "WayOfDev\\DatabaseSeeder\\Bridge\\Laravel\\Providers\\DatabaseSeederServiceProvider"
             ]
         },
         "composer-normalize": {

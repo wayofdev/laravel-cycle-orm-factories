@@ -2,17 +2,17 @@
 
 declare(strict_types=1);
 
-namespace WayOfDev\Package\Tests;
+namespace WayOfDev\DatabaseSeeder\Tests;
 
 use Orchestra\Testbench\TestCase as Orchestra;
-use WayOfDev\Package\Bridge\Laravel\Providers\PackageServiceProvider;
+use WayOfDev\DatabaseSeeder\Bridge\Laravel\Providers\DatabaseSeederServiceProvider;
 
 abstract class TestCase extends Orchestra
 {
     protected function getPackageProviders($app): array
     {
         return [
-            PackageServiceProvider::class,
+            DatabaseSeederServiceProvider::class,
         ];
     }
 }
