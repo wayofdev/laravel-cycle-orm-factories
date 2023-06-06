@@ -13,9 +13,6 @@ use WayOfDev\DatabaseSeeder\Database\Factories\PostFactory;
 use WayOfDev\DatabaseSeeder\Database\Factories\UserFactory;
 use WayOfDev\DatabaseSeeder\Exceptions\FactoryException;
 
-use function array_key_first;
-use function array_key_last;
-
 class FactoryTest extends TestCase
 {
     /**
@@ -43,9 +40,8 @@ class FactoryTest extends TestCase
 
         $this::assertCount(2, $users);
 
-        // with different data
-        $first = $users[array_key_first($users)];
-        $second = $users[array_key_last($users)];
+        $first = $users->first();
+        $second = $users->nth(2, 1)->first();
 
         $this::assertNotEquals($first->firstName, $second->firstName);
         $this::assertNotEquals($first->lastName, $second->lastName);

@@ -13,6 +13,7 @@ use Cycle\ORM\EntityManagerInterface;
 use Faker\Factory as FakerFactory;
 use Faker\Generator;
 use Illuminate\Container\Container;
+use Illuminate\Support\Collection;
 use Laminas\Hydrator\ReflectionHydrator;
 use Psr\Container\ContainerExceptionInterface;
 use Psr\Container\NotFoundExceptionInterface;
@@ -112,7 +113,7 @@ abstract class AbstractFactory implements FactoryInterface
      * @throws ContainerExceptionInterface
      * @throws NotFoundExceptionInterface
      */
-    public function create(): array
+    public function create(): Collection
     {
         $entities = $this->object(fn () => $this->definition());
         if (! is_array($entities)) {
@@ -123,7 +124,7 @@ abstract class AbstractFactory implements FactoryInterface
 
         $this->callAfterCreating($entities);
 
-        return $entities;
+        return new Collection($entities);
     }
 
     /**
@@ -144,14 +145,14 @@ abstract class AbstractFactory implements FactoryInterface
         return $entity;
     }
 
-    public function make(): array
+    public function make(): Collection
     {
         $entities = $this->object(fn () => $this->definition());
         if (! is_array($entities)) {
             $entities = [$entities];
         }
 
-        return $entities;
+        return new Collection($entities);
     }
 
     public function makeOne(): object

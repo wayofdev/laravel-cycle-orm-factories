@@ -9,6 +9,7 @@ use Cycle\Annotated\Annotation\Entity;
 use Cycle\Annotated\Annotation\Relation\BelongsTo;
 use Cycle\Annotated\Annotation\Relation\HasMany;
 use DateTimeImmutable;
+use Illuminate\Support\Collection;
 
 #[Entity(table: 'posts')]
 class Post
@@ -22,9 +23,8 @@ class Post
     #[Column(type: 'datetime')]
     public DateTimeImmutable $publishedAt;
 
-    /** @var Comment[] */
     #[HasMany(target: Comment::class, innerKey: 'id', outerKey: 'post_id', fkCreate: false)]
-    public array $comments = [];
+    public Collection $comments;
 
     public function __construct(
         #[Column(type: 'text')]
