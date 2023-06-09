@@ -5327,16 +5327,16 @@
         },
         {
             "name": "cycle/database",
-            "version": "2.5.0",
+            "version": "2.5.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cycle/database.git",
-                "reference": "3d5cb741da405361260cf72d826a833d2cd85559"
+                "reference": "d5b1be2b17050a86412246fcfaa60a6f6b27ed98"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cycle/database/zipball/3d5cb741da405361260cf72d826a833d2cd85559",
-                "reference": "3d5cb741da405361260cf72d826a833d2cd85559",
+                "url": "https://api.github.com/repos/cycle/database/zipball/d5b1be2b17050a86412246fcfaa60a6f6b27ed98",
+                "reference": "d5b1be2b17050a86412246fcfaa60a6f6b27ed98",
                 "shasum": ""
             },
             "require": {
@@ -5378,7 +5378,7 @@
             "description": "DBAL, schema introspection, migration and pagination",
             "support": {
                 "issues": "https://github.com/cycle/database/issues",
-                "source": "https://github.com/cycle/database/tree/2.5.0"
+                "source": "https://github.com/cycle/database/tree/2.5.1"
             },
             "funding": [
                 {
@@ -5386,7 +5386,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-05-12T14:04:10+00:00"
+            "time": "2023-06-08T21:27:55+00:00"
         },
         {
             "name": "cycle/migrations",
@@ -6782,16 +6782,16 @@
         },
         {
             "name": "mockery/mockery",
-            "version": "1.6.1",
+            "version": "1.6.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/mockery/mockery.git",
-                "reference": "a8dd186f07ea667c1e3abd2176bfab0ab161ea94"
+                "reference": "13a7fa2642c76c58fa2806ef7f565344c817a191"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mockery/mockery/zipball/a8dd186f07ea667c1e3abd2176bfab0ab161ea94",
-                "reference": "a8dd186f07ea667c1e3abd2176bfab0ab161ea94",
+                "url": "https://api.github.com/repos/mockery/mockery/zipball/13a7fa2642c76c58fa2806ef7f565344c817a191",
+                "reference": "13a7fa2642c76c58fa2806ef7f565344c817a191",
                 "shasum": ""
             },
             "require": {
@@ -6810,7 +6810,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.4.x-dev"
+                    "dev-main": "1.6.x-dev"
                 }
             },
             "autoload": {
@@ -6854,9 +6854,9 @@
             ],
             "support": {
                 "issues": "https://github.com/mockery/mockery/issues",
-                "source": "https://github.com/mockery/mockery/tree/1.6.1"
+                "source": "https://github.com/mockery/mockery/tree/1.6.2"
             },
-            "time": "2023-06-05T13:59:03+00:00"
+            "time": "2023-06-07T09:07:52+00:00"
         },
         {
             "name": "myclabs/deep-copy",
@@ -11861,16 +11861,16 @@
         },
         {
             "name": "wayofdev/laravel-cycle-orm-adapter",
-            "version": "v3.3.4",
+            "version": "v3.3.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wayofdev/laravel-cycle-orm-adapter.git",
-                "reference": "0022e48cea789be90f7a1d671f131011244e3e3f"
+                "reference": "92d83ddf4a8c3543f8114a836f30e7409ad4013b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wayofdev/laravel-cycle-orm-adapter/zipball/0022e48cea789be90f7a1d671f131011244e3e3f",
-                "reference": "0022e48cea789be90f7a1d671f131011244e3e3f",
+                "url": "https://api.github.com/repos/wayofdev/laravel-cycle-orm-adapter/zipball/92d83ddf4a8c3543f8114a836f30e7409ad4013b",
+                "reference": "92d83ddf4a8c3543f8114a836f30e7409ad4013b",
                 "shasum": ""
             },
             "require": {
@@ -11950,7 +11950,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-06-05T18:41:25+00:00"
+            "time": "2023-06-08T22:09:42+00:00"
         },
         {
             "name": "yiisoft/friendly-exception",
