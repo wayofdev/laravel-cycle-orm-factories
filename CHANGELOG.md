@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.2](https://github.com/wayofdev/laravel-cycle-orm-factories/compare/v1.1.1...v1.1.2) (2023-06-09)
+
+
+### Miscellaneous
+
+* **deps:** update dependency phpstan/phpstan to v1.10.18 ([176da64](https://github.com/wayofdev/laravel-cycle-orm-factories/commit/176da6488b4dc51ab8ceae7d072e7dfd9d5012c2))
+
 ## [1.1.1](https://github.com/wayofdev/laravel-cycle-orm-factories/compare/v1.1.0...v1.1.1) (2023-06-09)
 
 
