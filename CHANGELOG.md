@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.13](https://github.com/wayofdev/laravel-cycle-orm-factories/compare/v1.1.12...v1.1.13) (2023-06-12)
+
+
+### Bug Fixes
+
+* **deps:** update dependency fakerphp/faker to v1.23.0 ([0500f3f](https://github.com/wayofdev/laravel-cycle-orm-factories/commit/0500f3f0a4dcd50d6e8913b9fc82e1bfa4e19389))
+
 ## [1.1.12](https://github.com/wayofdev/laravel-cycle-orm-factories/compare/v1.1.11...v1.1.12) (2023-06-12)
 
 
