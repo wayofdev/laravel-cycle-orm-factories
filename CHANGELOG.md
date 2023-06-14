@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.19](https://github.com/wayofdev/laravel-cycle-orm-factories/compare/v1.1.18...v1.1.19) (2023-06-14)
+
+
+### Miscellaneous
+
+* **deps:** update dependency nunomaduro/larastan to v2.6.3 ([ceade80](https://github.com/wayofdev/laravel-cycle-orm-factories/commit/ceade8096ba095c3f6b11f1adea9c4be0e910d30))
+
 ## [1.1.18](https://github.com/wayofdev/laravel-cycle-orm-factories/compare/v1.1.17...v1.1.18) (2023-06-14)
 
 
