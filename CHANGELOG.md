@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.42](https://github.com/wayofdev/laravel-cycle-orm-factories/compare/v1.1.41...v1.1.42) (2023-06-25)
+
+
+### Miscellaneous
+
+* **deps:** update dependency phpunit/phpunit to v10.2.2 ([8bf92a4](https://github.com/wayofdev/laravel-cycle-orm-factories/commit/8bf92a42c1b1437fc79c487d6dcf8af4ec8a37ba))
+
 ## [1.1.41](https://github.com/wayofdev/laravel-cycle-orm-factories/compare/v1.1.40...v1.1.41) (2023-06-24)
 
 
