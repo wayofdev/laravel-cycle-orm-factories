@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.62](https://github.com/wayofdev/laravel-cycle-orm-factories/compare/v1.1.61...v1.1.62) (2023-07-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency laravel/framework to v10.14.1 ([a36641b](https://github.com/wayofdev/laravel-cycle-orm-factories/commit/a36641b28438f906f5fa464f3ed988aca43cfe08))
+
 ## [1.1.61](https://github.com/wayofdev/laravel-cycle-orm-factories/compare/v1.1.60...v1.1.61) (2023-07-02)
 
 
