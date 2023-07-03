@@ -5327,16 +5327,16 @@
         },
         {
             "name": "cycle/database",
-            "version": "2.5.1",
+            "version": "2.5.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/cycle/database.git",
-                "reference": "d5b1be2b17050a86412246fcfaa60a6f6b27ed98"
+                "reference": "ab6178f771a1a588257a075d62a651be26b6da99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/cycle/database/zipball/d5b1be2b17050a86412246fcfaa60a6f6b27ed98",
-                "reference": "d5b1be2b17050a86412246fcfaa60a6f6b27ed98",
+                "url": "https://api.github.com/repos/cycle/database/zipball/ab6178f771a1a588257a075d62a651be26b6da99",
+                "reference": "ab6178f771a1a588257a075d62a651be26b6da99",
                 "shasum": ""
             },
             "require": {
@@ -5378,7 +5378,7 @@
             "description": "DBAL, schema introspection, migration and pagination",
             "support": {
                 "issues": "https://github.com/cycle/database/issues",
-                "source": "https://github.com/cycle/database/tree/2.5.1"
+                "source": "https://github.com/cycle/database/tree/2.5.2"
             },
             "funding": [
                 {
@@ -5386,7 +5386,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-06-08T21:27:55+00:00"
+            "time": "2023-07-03T17:03:57+00:00"
         },
         {
             "name": "cycle/migrations",
@@ -11861,16 +11861,16 @@
         },
         {
             "name": "wayofdev/laravel-cycle-orm-adapter",
-            "version": "v3.4.19",
+            "version": "v3.4.20",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wayofdev/laravel-cycle-orm-adapter.git",
-                "reference": "0fbaba3d402546f34cc0279c77707e50ce0a1096"
+                "reference": "815c22f906a3a4d79e4465a34af4d723a31806f3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wayofdev/laravel-cycle-orm-adapter/zipball/0fbaba3d402546f34cc0279c77707e50ce0a1096",
-                "reference": "0fbaba3d402546f34cc0279c77707e50ce0a1096",
+                "url": "https://api.github.com/repos/wayofdev/laravel-cycle-orm-adapter/zipball/815c22f906a3a4d79e4465a34af4d723a31806f3",
+                "reference": "815c22f906a3a4d79e4465a34af4d723a31806f3",
                 "shasum": ""
             },
             "require": {
@@ -11950,7 +11950,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-03T01:27:19+00:00"
+            "time": "2023-07-03T20:07:42+00:00"
         },
         {
             "name": "yiisoft/friendly-exception",
