@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.110](https://github.com/wayofdev/laravel-cycle-orm-factories/compare/v1.1.109...v1.1.110) (2023-07-28)
+
+
+### Miscellaneous
+
+* **deps:** update dependency ergebnis/composer-normalize to v2.34.0 ([a37c058](https://github.com/wayofdev/laravel-cycle-orm-factories/commit/a37c058bf68bb179eabf6beccd916d4dbd777208))
+
 ## [1.1.109](https://github.com/wayofdev/laravel-cycle-orm-factories/compare/v1.1.108...v1.1.109) (2023-07-25)
 
 
