@@ -1823,20 +1823,20 @@
         },
         {
             "name": "nette/utils",
-            "version": "v4.0.0",
+            "version": "v4.0.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/utils.git",
-                "reference": "cacdbf5a91a657ede665c541eda28941d4b09c1e"
+                "reference": "9ae1572d0224eea15eb43aaeb902888b3b967196"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/cacdbf5a91a657ede665c541eda28941d4b09c1e",
-                "reference": "cacdbf5a91a657ede665c541eda28941d4b09c1e",
+                "url": "https://api.github.com/repos/nette/utils/zipball/9ae1572d0224eea15eb43aaeb902888b3b967196",
+                "reference": "9ae1572d0224eea15eb43aaeb902888b3b967196",
                 "shasum": ""
             },
             "require": {
-                "php": ">=8.0 <8.3"
+                "php": ">=8.0 <8.4"
             },
             "conflict": {
                 "nette/finder": "<3",
@@ -1844,7 +1844,7 @@
             },
             "require-dev": {
                 "jetbrains/phpstorm-attributes": "dev-master",
-                "nette/tester": "^2.4",
+                "nette/tester": "^2.5",
                 "phpstan/phpstan": "^1.0",
                 "tracy/tracy": "^2.9"
             },
@@ -1904,9 +1904,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/utils/issues",
-                "source": "https://github.com/nette/utils/tree/v4.0.0"
+                "source": "https://github.com/nette/utils/tree/v4.0.1"
             },
-            "time": "2023-02-02T10:41:53+00:00"
+            "time": "2023-07-30T13:02:42+00:00"
         },
         {
             "name": "nunomaduro/termwind",
@@ -11918,16 +11918,16 @@
         },
         {
             "name": "wayofdev/laravel-cycle-orm-adapter",
-            "version": "v4.0.25",
+            "version": "v4.0.26",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wayofdev/laravel-cycle-orm-adapter.git",
-                "reference": "f6a836d53d0976c4168bba9db1a0655fa3db2196"
+                "reference": "7f264db41616f28ebbef35abacf6771c7f83c545"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wayofdev/laravel-cycle-orm-adapter/zipball/f6a836d53d0976c4168bba9db1a0655fa3db2196",
-                "reference": "f6a836d53d0976c4168bba9db1a0655fa3db2196",
+                "url": "https://api.github.com/repos/wayofdev/laravel-cycle-orm-adapter/zipball/7f264db41616f28ebbef35abacf6771c7f83c545",
+                "reference": "7f264db41616f28ebbef35abacf6771c7f83c545",
                 "shasum": ""
             },
             "require": {
@@ -12008,7 +12008,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-29T15:57:40+00:00"
+            "time": "2023-07-30T09:35:02+00:00"
         },
         {
             "name": "yiisoft/friendly-exception",
