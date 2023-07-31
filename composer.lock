@@ -1827,12 +1827,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/utils.git",
-                "reference": "9ae1572d0224eea15eb43aaeb902888b3b967196"
+                "reference": "9124157137da01b1f5a5a22d6486cb975f26db7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/9ae1572d0224eea15eb43aaeb902888b3b967196",
-                "reference": "9ae1572d0224eea15eb43aaeb902888b3b967196",
+                "url": "https://api.github.com/repos/nette/utils/zipball/9124157137da01b1f5a5a22d6486cb975f26db7e",
+                "reference": "9124157137da01b1f5a5a22d6486cb975f26db7e",
                 "shasum": ""
             },
             "require": {
@@ -1906,7 +1906,7 @@
                 "issues": "https://github.com/nette/utils/issues",
                 "source": "https://github.com/nette/utils/tree/v4.0.1"
             },
-            "time": "2023-07-30T13:02:42+00:00"
+            "time": "2023-07-30T15:42:21+00:00"
         },
         {
             "name": "nunomaduro/termwind",
@@ -6976,21 +6976,21 @@
         },
         {
             "name": "nette/php-generator",
-            "version": "v4.0.7",
+            "version": "v4.0.8",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/php-generator.git",
-                "reference": "de1843fbb692125e307937c85d43937d0dc0c1d4"
+                "reference": "d9157df8463b198dcbcd9f979fb09a9367c7fe99"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/php-generator/zipball/de1843fbb692125e307937c85d43937d0dc0c1d4",
-                "reference": "de1843fbb692125e307937c85d43937d0dc0c1d4",
+                "url": "https://api.github.com/repos/nette/php-generator/zipball/d9157df8463b198dcbcd9f979fb09a9367c7fe99",
+                "reference": "d9157df8463b198dcbcd9f979fb09a9367c7fe99",
                 "shasum": ""
             },
             "require": {
                 "nette/utils": "^3.2.9 || ^4.0",
-                "php": ">=8.0 <8.3"
+                "php": ">=8.0 <8.4"
             },
             "require-dev": {
                 "jetbrains/phpstorm-attributes": "dev-master",
@@ -7039,9 +7039,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/php-generator/issues",
-                "source": "https://github.com/nette/php-generator/tree/v4.0.7"
+                "source": "https://github.com/nette/php-generator/tree/v4.0.8"
             },
-            "time": "2023-04-26T15:09:53+00:00"
+            "time": "2023-07-30T12:05:00+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -11918,16 +11918,16 @@
         },
         {
             "name": "wayofdev/laravel-cycle-orm-adapter",
-            "version": "v4.0.26",
+            "version": "v4.0.27",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wayofdev/laravel-cycle-orm-adapter.git",
-                "reference": "7f264db41616f28ebbef35abacf6771c7f83c545"
+                "reference": "bcbcdf26fdf97cbfd967cb9356f372efc7dfedec"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wayofdev/laravel-cycle-orm-adapter/zipball/7f264db41616f28ebbef35abacf6771c7f83c545",
-                "reference": "7f264db41616f28ebbef35abacf6771c7f83c545",
+                "url": "https://api.github.com/repos/wayofdev/laravel-cycle-orm-adapter/zipball/bcbcdf26fdf97cbfd967cb9356f372efc7dfedec",
+                "reference": "bcbcdf26fdf97cbfd967cb9356f372efc7dfedec",
                 "shasum": ""
             },
             "require": {
@@ -12008,7 +12008,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-07-30T09:35:02+00:00"
+            "time": "2023-07-31T01:15:14+00:00"
         },
         {
             "name": "yiisoft/friendly-exception",
