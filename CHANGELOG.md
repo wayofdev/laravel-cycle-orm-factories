@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.120](https://github.com/wayofdev/laravel-cycle-orm-factories/compare/v1.1.119...v1.1.120) (2023-08-01)
+
+
+### Miscellaneous
+
+* **deps:** update dependency orchestra/testbench to v8.5.12 ([5185ba7](https://github.com/wayofdev/laravel-cycle-orm-factories/commit/5185ba719885f37cc3659052aa2475b049155d1d))
+* **deps:** update dependency wayofdev/laravel-cycle-orm-adapter to v4.0.31 ([ac77ccd](https://github.com/wayofdev/laravel-cycle-orm-factories/commit/ac77ccd12fa51556dee1c131ba99ecb69557904b))
+
 ## [1.1.119](https://github.com/wayofdev/laravel-cycle-orm-factories/compare/v1.1.118...v1.1.119) (2023-08-01)
 
 
