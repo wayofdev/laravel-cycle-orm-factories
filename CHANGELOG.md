@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.132](https://github.com/wayofdev/laravel-cycle-orm-factories/compare/v1.1.131...v1.1.132) (2023-08-05)
+
+
+### Miscellaneous
+
+* **deps:** update dependency pestphp/pest to v2.12.1 ([3f3f88f](https://github.com/wayofdev/laravel-cycle-orm-factories/commit/3f3f88fcf4635ccc9faf0a12ccbac16b1acca7a1))
+
 ## [1.1.131](https://github.com/wayofdev/laravel-cycle-orm-factories/compare/v1.1.130...v1.1.131) (2023-08-05)
 
 
