@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.145](https://github.com/wayofdev/laravel-cycle-orm-factories/compare/v1.1.144...v1.1.145) (2023-08-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency laravel/framework to v10.18.0 ([ecd253a](https://github.com/wayofdev/laravel-cycle-orm-factories/commit/ecd253ae56a3042dc4924a43a3231349f68ffd96))
+
+
+### Miscellaneous
+
+* **deps:** update dependency orchestra/testbench to v8.6.1 ([c5d86d7](https://github.com/wayofdev/laravel-cycle-orm-factories/commit/c5d86d7f9b8e6b7dc05b1190974903441faad597))
+
 ## [1.1.144](https://github.com/wayofdev/laravel-cycle-orm-factories/compare/v1.1.143...v1.1.144) (2023-08-08)
 
 
