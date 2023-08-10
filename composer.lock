@@ -11920,16 +11920,16 @@
         },
         {
             "name": "wayofdev/laravel-cycle-orm-adapter",
-            "version": "v4.0.49",
+            "version": "v4.0.50",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wayofdev/laravel-cycle-orm-adapter.git",
-                "reference": "bc0e968317f41a6706069ab95c3f0e7e7301a54b"
+                "reference": "79d1a489c9eaad1788e17b1aff720318a3541099"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wayofdev/laravel-cycle-orm-adapter/zipball/bc0e968317f41a6706069ab95c3f0e7e7301a54b",
-                "reference": "bc0e968317f41a6706069ab95c3f0e7e7301a54b",
+                "url": "https://api.github.com/repos/wayofdev/laravel-cycle-orm-adapter/zipball/79d1a489c9eaad1788e17b1aff720318a3541099",
+                "reference": "79d1a489c9eaad1788e17b1aff720318a3541099",
                 "shasum": ""
             },
             "require": {
@@ -12010,7 +12010,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-08-09T16:04:26+00:00"
+            "time": "2023-08-10T03:33:27+00:00"
         },
         {
             "name": "yiisoft/friendly-exception",
