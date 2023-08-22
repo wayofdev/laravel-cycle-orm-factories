@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.1.171](https://github.com/wayofdev/laravel-cycle-orm-factories/compare/v1.1.170...v1.1.171) (2023-08-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency laravel/framework to v10.19.0 ([f6b0e62](https://github.com/wayofdev/laravel-cycle-orm-factories/commit/f6b0e6234403db063236f5014f465497c1801691))
+
+
+### Miscellaneous
+
+* **deps:** update dependency phpstan/phpstan to v1.10.30 ([5f054ae](https://github.com/wayofdev/laravel-cycle-orm-factories/commit/5f054aed7e1d0636b0547c4bdaece2b7a6c7f928))
+
 ## [1.1.170](https://github.com/wayofdev/laravel-cycle-orm-factories/compare/v1.1.169...v1.1.170) (2023-08-21)
 
 
