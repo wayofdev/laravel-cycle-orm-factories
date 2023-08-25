@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.179](https://github.com/wayofdev/laravel-cycle-orm-factories/compare/v1.1.178...v1.1.179) (2023-08-25)
+
+
+### Miscellaneous
+
+* **deps:** update dependency phpstan/phpstan-phpunit to v1.3.14 ([da4be4e](https://github.com/wayofdev/laravel-cycle-orm-factories/commit/da4be4ee866dfaf05b02032ead8a32073db3e756))
+
 ## [1.1.178](https://github.com/wayofdev/laravel-cycle-orm-factories/compare/v1.1.177...v1.1.178) (2023-08-25)
 
 
