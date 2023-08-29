@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.185](https://github.com/wayofdev/laravel-cycle-orm-factories/compare/v1.1.184...v1.1.185) (2023-08-29)
+
+
+### Miscellaneous
+
+* **deps:** update dependency wayofdev/laravel-cycle-orm-adapter to v4.0.77 ([274bb06](https://github.com/wayofdev/laravel-cycle-orm-factories/commit/274bb06f33b161b9867c7fb1e92e6e2bcc0d8b3f))
+
 ## [1.1.184](https://github.com/wayofdev/laravel-cycle-orm-factories/compare/v1.1.183...v1.1.184) (2023-08-28)
 
 
