@@ -7032,21 +7032,21 @@
         },
         {
             "name": "nette/php-generator",
-            "version": "v4.0.8",
+            "version": "v4.0.9",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/php-generator.git",
-                "reference": "d9157df8463b198dcbcd9f979fb09a9367c7fe99"
+                "reference": "72cf9e20686904678d9c1de664c6f7a8c9d676ed"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/php-generator/zipball/d9157df8463b198dcbcd9f979fb09a9367c7fe99",
-                "reference": "d9157df8463b198dcbcd9f979fb09a9367c7fe99",
+                "url": "https://api.github.com/repos/nette/php-generator/zipball/72cf9e20686904678d9c1de664c6f7a8c9d676ed",
+                "reference": "72cf9e20686904678d9c1de664c6f7a8c9d676ed",
                 "shasum": ""
             },
             "require": {
                 "nette/utils": "^3.2.9 || ^4.0",
-                "php": ">=8.0 <8.4"
+                "php": "8.0 - 8.3"
             },
             "require-dev": {
                 "jetbrains/phpstorm-attributes": "dev-master",
@@ -7085,7 +7085,7 @@
                     "homepage": "https://nette.org/contributors"
                 }
             ],
-            "description": "🐘 Nette PHP Generator: generates neat PHP code for you. Supports new PHP 8.2 features.",
+            "description": "🐘 Nette PHP Generator: generates neat PHP code for you. Supports new PHP 8.3 features.",
             "homepage": "https://nette.org",
             "keywords": [
                 "code",
@@ -7095,9 +7095,9 @@
             ],
             "support": {
                 "issues": "https://github.com/nette/php-generator/issues",
-                "source": "https://github.com/nette/php-generator/tree/v4.0.8"
+                "source": "https://github.com/nette/php-generator/tree/v4.0.9"
             },
-            "time": "2023-07-30T12:05:00+00:00"
+            "time": "2023-08-29T19:09:26+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -10980,16 +10980,16 @@
         },
         {
             "name": "spiral/core",
-            "version": "3.8.2",
+            "version": "3.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spiral/core.git",
-                "reference": "f276ffcabe5f618615a1ee8d727641b43e71efa3"
+                "reference": "4cd83b4d1f4ce6328dc7022271346e4f8e2e6b27"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spiral/core/zipball/f276ffcabe5f618615a1ee8d727641b43e71efa3",
-                "reference": "f276ffcabe5f618615a1ee8d727641b43e71efa3",
+                "url": "https://api.github.com/repos/spiral/core/zipball/4cd83b4d1f4ce6328dc7022271346e4f8e2e6b27",
+                "reference": "4cd83b4d1f4ce6328dc7022271346e4f8e2e6b27",
                 "shasum": ""
             },
             "require": {
@@ -11043,11 +11043,11 @@
                 "issues": "https://github.com/spiral/framework/issues",
                 "source": "https://github.com/spiral/core"
             },
-            "time": "2023-08-18T09:58:53+00:00"
+            "time": "2023-08-29T13:49:56+00:00"
         },
         {
             "name": "spiral/files",
-            "version": "3.8.2",
+            "version": "3.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spiral/files.git",
@@ -11110,22 +11110,22 @@
         },
         {
             "name": "spiral/logger",
-            "version": "3.8.2",
+            "version": "3.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spiral/logger.git",
-                "reference": "d91dd76c320894cf7415916671b14f0c01237c57"
+                "reference": "cce6d67447b1730c7252c2288b7e6c6fd7e1a26f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spiral/logger/zipball/d91dd76c320894cf7415916671b14f0c01237c57",
-                "reference": "d91dd76c320894cf7415916671b14f0c01237c57",
+                "url": "https://api.github.com/repos/spiral/logger/zipball/cce6d67447b1730c7252c2288b7e6c6fd7e1a26f",
+                "reference": "cce6d67447b1730c7252c2288b7e6c6fd7e1a26f",
                 "shasum": ""
             },
             "require": {
                 "php": ">=8.1",
                 "psr/log": "1 - 3",
-                "spiral/core": "^3.8.2"
+                "spiral/core": "^3.8.3"
             },
             "require-dev": {
                 "mockery/mockery": "^1.5",
@@ -11171,11 +11171,11 @@
                 "issues": "https://github.com/spiral/framework/issues",
                 "source": "https://github.com/spiral/logger"
             },
-            "time": "2023-08-18T10:01:20+00:00"
+            "time": "2023-08-29T15:12:16+00:00"
         },
         {
             "name": "spiral/pagination",
-            "version": "3.8.2",
+            "version": "3.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spiral/pagination.git",
@@ -11238,23 +11238,23 @@
         },
         {
             "name": "spiral/reactor",
-            "version": "3.8.2",
+            "version": "3.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spiral/reactor.git",
-                "reference": "de89aa6da847a82882e2e11f26ffe7abc2ad9d1d"
+                "reference": "6ef09179338c4aec32d8447095d4b6fc9b589acb"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spiral/reactor/zipball/de89aa6da847a82882e2e11f26ffe7abc2ad9d1d",
-                "reference": "de89aa6da847a82882e2e11f26ffe7abc2ad9d1d",
+                "url": "https://api.github.com/repos/spiral/reactor/zipball/6ef09179338c4aec32d8447095d4b6fc9b589acb",
+                "reference": "6ef09179338c4aec32d8447095d4b6fc9b589acb",
                 "shasum": ""
             },
             "require": {
                 "doctrine/inflector": "^1.4|^2.0",
                 "nette/php-generator": "^4.0.1",
                 "php": ">=8.1",
-                "spiral/files": "^3.8.2"
+                "spiral/files": "^3.8.3"
             },
             "require-dev": {
                 "mockery/mockery": "^1.5",
@@ -11301,34 +11301,34 @@
                 "issues": "https://github.com/spiral/framework/issues",
                 "source": "https://github.com/spiral/reactor"
             },
-            "time": "2023-08-18T10:01:33+00:00"
+            "time": "2023-08-29T15:12:36+00:00"
         },
         {
             "name": "spiral/tokenizer",
-            "version": "3.8.2",
+            "version": "3.8.3",
             "source": {
                 "type": "git",
                 "url": "https://github.com/spiral/tokenizer.git",
-                "reference": "253f930831e27b85ec8c0b5d1fabdc6a29304d68"
+                "reference": "df3932cccb5a5bcaefbc283835da538d2260db5b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/spiral/tokenizer/zipball/253f930831e27b85ec8c0b5d1fabdc6a29304d68",
-                "reference": "253f930831e27b85ec8c0b5d1fabdc6a29304d68",
+                "url": "https://api.github.com/repos/spiral/tokenizer/zipball/df3932cccb5a5bcaefbc283835da538d2260db5b",
+                "reference": "df3932cccb5a5bcaefbc283835da538d2260db5b",
                 "shasum": ""
             },
             "require": {
                 "ext-tokenizer": "*",
                 "php": ">=8.1",
-                "spiral/core": "^3.8.2",
-                "spiral/logger": "^3.8.2",
+                "spiral/core": "^3.8.3",
+                "spiral/logger": "^3.8.3",
                 "symfony/finder": "^5.3.7|^6.0"
             },
             "require-dev": {
                 "phpunit/phpunit": "^10.1",
                 "spiral/attributes": "^2.8|^3.0",
-                "spiral/boot": "^3.8.2",
-                "spiral/files": "^3.8.2",
+                "spiral/boot": "^3.8.3",
+                "spiral/files": "^3.8.3",
                 "vimeo/psalm": "^5.9"
             },
             "type": "library",
@@ -11370,7 +11370,7 @@
                 "issues": "https://github.com/spiral/framework/issues",
                 "source": "https://github.com/spiral/tokenizer"
             },
-            "time": "2023-08-18T10:01:48+00:00"
+            "time": "2023-08-29T15:12:51+00:00"
         },
         {
             "name": "symfony/filesystem",
@@ -11973,16 +11973,16 @@
         },
         {
             "name": "wayofdev/laravel-cycle-orm-adapter",
-            "version": "v4.0.78",
+            "version": "v4.0.79",
             "source": {
                 "type": "git",
                 "url": "https://github.com/wayofdev/laravel-cycle-orm-adapter.git",
-                "reference": "f1a651dd4b9843fc46e8f63565bd23df9d3149c0"
+                "reference": "9bf4c6a1798d6142db6597f35b618b2b594b882d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/wayofdev/laravel-cycle-orm-adapter/zipball/f1a651dd4b9843fc46e8f63565bd23df9d3149c0",
-                "reference": "f1a651dd4b9843fc46e8f63565bd23df9d3149c0",
+                "url": "https://api.github.com/repos/wayofdev/laravel-cycle-orm-adapter/zipball/9bf4c6a1798d6142db6597f35b618b2b594b882d",
+                "reference": "9bf4c6a1798d6142db6597f35b618b2b594b882d",
                 "shasum": ""
             },
             "require": {
@@ -12063,7 +12063,7 @@
                     "type": "github"
                 }
             ],
-            "time": "2023-08-29T10:16:35+00:00"
+            "time": "2023-08-30T04:38:16+00:00"
         },
         {
             "name": "yiisoft/friendly-exception",
