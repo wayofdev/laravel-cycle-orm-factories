@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.191](https://github.com/wayofdev/laravel-cycle-orm-factories/compare/v1.1.190...v1.1.191) (2023-09-04)
+
+
+### Miscellaneous
+
+* **deps:** update dependency wayofdev/cs-fixer-config to v1.2.51 ([966399c](https://github.com/wayofdev/laravel-cycle-orm-factories/commit/966399c6df48cf79c6a4ec7b1c768ba18000c409))
+
 ## [1.1.190](https://github.com/wayofdev/laravel-cycle-orm-factories/compare/v1.1.189...v1.1.190) (2023-09-01)
 
 
