@@ -1,5 +1,13 @@
 # Changelog
 
+## [1.1.197](https://github.com/wayofdev/laravel-cycle-orm-factories/compare/v1.1.196...v1.1.197) (2023-09-04)
+
+
+### Miscellaneous
+
+* **deps:** update actions/checkout action to v4 ([8f4a696](https://github.com/wayofdev/laravel-cycle-orm-factories/commit/8f4a6965a852c5bc99cdabedf2ee27af1be6a81a))
+* **deps:** update dependency ergebnis/composer-normalize to v2.36.0 ([95ad222](https://github.com/wayofdev/laravel-cycle-orm-factories/commit/95ad222aed9d3562ec65142fb9f91a501456e29f))
+
 ## [1.1.196](https://github.com/wayofdev/laravel-cycle-orm-factories/compare/v1.1.195...v1.1.196) (2023-09-04)
 
 
