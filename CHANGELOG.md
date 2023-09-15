@@ -1,5 +1,12 @@
 # Changelog
 
+## [1.1.215](https://github.com/wayofdev/laravel-cycle-orm-factories/compare/v1.1.214...v1.1.215) (2023-09-15)
+
+
+### Miscellaneous
+
+* **deps:** update codecov/codecov-action action to v4 ([4305ca1](https://github.com/wayofdev/laravel-cycle-orm-factories/commit/4305ca1ad7f3eb68fc178ab24831970246dbb076))
+
 ## [1.1.214](https://github.com/wayofdev/laravel-cycle-orm-factories/compare/v1.1.213...v1.1.214) (2023-09-14)
 
 
