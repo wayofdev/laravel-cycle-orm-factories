@@ -1,5 +1,17 @@
 # Changelog
 
+## [1.2.0](https://github.com/wayofdev/laravel-cycle-orm-factories/compare/v1.1.215...v1.2.0) (2024-06-13)
+
+
+### Features
+
+* laravel 11.x support ([533f629](https://github.com/wayofdev/laravel-cycle-orm-factories/commit/533f6298b5d3c744d2ef453d1fd7c3c645638f3e))
+
+
+### Bug Fixes
+
+* release-please action ([228c602](https://github.com/wayofdev/laravel-cycle-orm-factories/commit/228c602541678f04b1c92c36e624ca8c11b38db8))
+
 ## [1.1.215](https://github.com/wayofdev/laravel-cycle-orm-factories/compare/v1.1.214...v1.1.215) (2023-09-15)
 
 
