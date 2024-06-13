@@ -25,8 +25,7 @@ class Comment
     public DateTimeImmutable $postedAt;
 
     public function __construct(
-        #[Column(type: 'text')]
-        public string $text
+        #[Column(type: 'text')] public string $text
     ) {
     }
 }

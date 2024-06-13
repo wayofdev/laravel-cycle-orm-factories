@@ -62,6 +62,20 @@ abstract class AbstractFactory implements FactoryInterface
      */
     private array $entityStates = [];
 
+    final private function __construct(
+        private readonly array $replaces = []
+    ) {
+        $this->faker = FakerFactory::create();
+
+        $this->entityFactory = new Factory(
+            new LaminasEntityFactory(
+                new ReflectionHydrator(),
+                new InstanceWithoutConstructorStrategy()
+            ),
+            $this->faker
+        );
+    }
+
     public static function new(array $replace = []): static
     {
         return new static($replace);
@@ -69,7 +83,9 @@ abstract class AbstractFactory implements FactoryInterface
 
     abstract public function makeEntity(array $definition): object;
 
-    /** @psalm-return class-string */
+    /**
+     * @psalm-return class-string
+     */
     abstract public function entity(): string;
 
     abstract public function definition(): array;
@@ -182,20 +198,6 @@ abstract class AbstractFactory implements FactoryInterface
         };
     }
 
-    final private function __construct(
-        private readonly array $replaces = []
-    ) {
-        $this->faker = FakerFactory::create();
-
-        $this->entityFactory = new Factory(
-            new LaminasEntityFactory(
-                new ReflectionHydrator(),
-                new InstanceWithoutConstructorStrategy()
-            ),
-            $this->faker
-        );
-    }
-
     /**
      * @throws ContainerExceptionInterface
      * @throws NotFoundExceptionInterface
@@ -213,7 +215,9 @@ abstract class AbstractFactory implements FactoryInterface
         $em->run();
     }
 
-    /** @internal */
+    /**
+     * @internal
+     */
     private function object(Closure $definition): object|array
     {
         $this->entityFactory
@@ -239,7 +243,9 @@ abstract class AbstractFactory implements FactoryInterface
         return $this->applyEntityState($result);
     }
 
-    /** @internal */
+    /**
+     * @internal
+     */
     private function applyEntityState(object $entity): object
     {
         foreach ($this->entityStates as $state) {
@@ -249,7 +255,9 @@ abstract class AbstractFactory implements FactoryInterface
         return $entity;
     }
 
-    /** @internal */
+    /**
+     * @internal
+     */
     private function callAfterCreating(array $entities): void
     {
         foreach ($entities as $entity) {

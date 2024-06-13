@@ -27,8 +27,7 @@ class Post
     public Collection $comments;
 
     public function __construct(
-        #[Column(type: 'text')]
-        public string $content
+        #[Column(type: 'text')] public string $content
     ) {
     }
 }

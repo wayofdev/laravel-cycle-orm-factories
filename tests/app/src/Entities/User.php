@@ -33,10 +33,8 @@ class User
     public bool $admin = false;
 
     public function __construct(
-        #[Column(type: 'string')]
-        public string $firstName,
-        #[Column(type: 'string')]
-        public string $lastName
+        #[Column(type: 'string')] public string $firstName,
+        #[Column(type: 'string')] public string $lastName
     ) {
     }
 }
